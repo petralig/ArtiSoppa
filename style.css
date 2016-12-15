@@ -1,0 +1,527 @@
+/* iheader.php START */
+
+#main_logo {
+    width:100%;
+}
+
+.links ul {
+    display: block;
+}
+
+.links ul li {
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
+
+.iheader_buttons {
+    display: block;
+    text-align: center;
+    line-height: 2.2em;
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #a6a0ab;
+    font-family: "Arial";
+    text-decoration: none;
+    /*transition: 0.6s;*/
+}
+
+/* register button transition*/
+#register_button {
+    color: #c0bbc3;
+    background-color: #0f0d11;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 0px 0px #33267f;
+	transition: all ease 0.8s;
+    animation-timing-function: ease-in-out;
+}
+#register_button:hover {
+    color: #fff;
+    box-shadow: inset 150px 0 0 0 #9e75ef;
+}
+
+/* login button transition */
+#login_button {
+    color: #c0bbc3;
+    background-color: #0f0d11;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0px #33267f;
+    transition: 0.8s;
+    animation-timing-function: ease-in-out;
+}
+#login_button:hover {
+    color: #fff;
+    box-shadow: inset -150px 0 0 0 #9e75ef;
+}
+
+/* iheader.php END */
+
+
+/* iheader_loggedin.php START */
+
+#main_loggedin {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    margin-top: -8px;
+    background-color: #3d3d3d;
+}
+
+header {
+    height:100px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#logged_logo {
+    float:left;
+    /*padding-left: 0%;*/
+    margin-top: -10px;
+    width: 250px;
+    /*width:30%;*/
+}
+
+#loggedin_nav {
+    padding-top: 45px;
+    padding-right: 100px;
+    margin-top: -5px;
+    float:right;
+}
+
+#searchicon {
+    float: left;
+    width: 29px;
+    margin-top: -5px;
+}
+
+nav > form {
+    float: left;
+}
+
+/* iheader_loggedin.php END */
+
+
+body {
+    background-color: #1e1d1e;
+    background-image:url("../images/bg_graphics1.png");
+    background-position: right bottom; /*Positioning*/
+    background-attachment: fixed;
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
+}
+
+.main {
+    margin: auto;
+    /*margin-top:-5px;*/
+    width: 60%;
+    height: 100%;
+    background-color: #1e1d1e;
+    /*background-color: #3d3d3d;*/      /*edellinen sisällön taustaväri*/
+}
+
+p {
+    color:white;
+	padding-left: 20px;
+	padding-right: 20px;
+    font-family: "Arial";
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color:white;
+	text-decoration:none;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.link:hover {
+    color: #6a6370;
+}
+
+a:visited { 
+    color: white;
+}
+
+section {
+	margin: auto;
+	width: 80%;
+	/*background-color: black;*/
+    text-align: center;
+}
+
+.catpic {
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+/* koska nämä ovat oikealla reunimmaiset kuvat */
+.catpic1 {
+	padding-bottom: 10px;
+}
+
+.trendingfresh {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/*profile.php START*/
+
+#userpic {
+	padding-left: 10px;
+	padding-right: 10px;
+	float:left;
+}
+
+/*profile.php END*/
+
+/* formit START */
+
+form {
+    text-align: center;
+}
+
+/* formit END */
+
+.login_back {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/*footer.php START*/
+
+footer {
+    position: fixed; /*Positioning*/
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 45px;
+    bottom: 0;
+    left: 0;
+}
+
+footer p{
+    color: #BB94CE;
+    font-size: 14px;
+}
+
+/*footer.php END*/
+
+
+/*loggein_feed.php START*/
+
+#feedpic {
+    width: 100%;
+}
+
+.main_loggedin {
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    position: relative;
+    z-index: -5;
+    background-color: #1e1d1e;
+}
+
+/*loggedin_feed.php END*/
+
+
+
+
+/* ************************* */
+
+li > figure img {
+    width: 80%;
+}
+
+header h1 {
+    margin:0;
+    font-size: 1.5em;
+    position: absolute;
+    top: 0;
+    line-height: 100px;
+    padding: 0 6em;
+    color: #e9e9e9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    /* width: 33.33%; */
+}
+
+figure {
+    /*margin: .5em;*/
+    position: relative;
+    width: 90%;
+    text-align: center;
+}
+
+/*figure img {
+    width: 100%;
+}*/
+
+figcaption {
+    display: none;
+}
+
+figure:hover > figcaption {
+    
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0 , 0, 0.5);
+    border-radius: 0% 0% 50% 50%;
+}
+
+figcaption h3 {
+    margin: 0;
+    text-align: center;
+    font-family: "Arial";
+    color:white;
+}
+
+/* ************************* */
+
+/* sidebar menu START */
+
+#menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.6s;
+    
+    background-image:url("../images/menu_graphics1.png");
+    background-position: right bottom; /*Positioning*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#menu a {
+    padding: 8px 8px 8px 15px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+#menu a:hover/*, .offcanvas a:focus*/{
+    color: #6a6370;
+}
+
+#openbtn {
+    position: absolute;
+    float: right;
+    top: -15px;
+    right: 15px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#openbtn:hover {
+    color: #6a6370;
+}
+
+#closebtn {
+    position: absolute;
+    float: right;
+    top: 12px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+    #menu {padding-top: 15px;}
+}
+
+#profilepicture {
+    position: relative;
+    left: -35px;
+    display: inline-block;
+}
+
+#username_menu {
+    display: block;
+    position: relative;
+    color: white;
+    font-family: "Arial";
+}
+
+/* sidebar menu END */
+
+/* search bar stretch */
+#searchbar {
+    text-align: left;
+    float: left;
+    margin-top: -5px;
+    height: 21px;
+    border: 1px solid #a6a0ab;
+    opacity: 0.5;
+    background-color: #0f0d11;
+    color: #d8c2ed;
+}
+
+input[name="searchbar"] {
+    width: 120px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[name="searchbar"]:focus {
+    width: 250px;
+}
+
+#searchbutton {
+    margin-top: -5px;
+    margin-left: 5px;
+    height: 24px;
+    width: 65px;
+    float: right;
+    cursor: pointer;
+    background-color: #0f0d11;
+    border: 1px solid #a197a8;
+    font-family: "Arial";
+    font-size: 14px;
+    text-decoration: none;
+    color: #d8c2ed;
+}
+
+#searchbutton:hover {
+    background-color: #6a6370;
+}
+
+#searchbutton {
+    color: #cac4ed;
+    background-color: #0f0d11;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #3a29d8;
+    transition: 0.3s;
+    animation-timing-function: ease-in;
+}
+#searchbutton:hover {
+    color: #fff;
+    box-shadow: inset 0px 0px 100px 0px #9e75ef;
+}
+
+/***********************/
+
+/* register.php && login.php forms */
+.formfield {
+    text-align: center;
+    width: 150px;
+    height: 21px;
+    border: 1px solid #333036;
+    background-color: #0f0d11;
+    color: #fff;
+}
+
+/* register.php && login.php buttons START */
+
+.formbutton {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    width: 75px;
+    height: 30px;
+    border: 1px solid #a6a0ab;
+    font-family: "Arial";
+    font-size: 14px;
+    text-decoration: none;
+    color: #c0bbc3;
+    background-color: #0f0d11;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #3a29d8;
+    transition: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+.formbutton:hover {
+    color: #fff;
+    box-shadow: inset 0px 80px 0px 0px #9e75ef;
+}
+
+#register p {
+    color: #c0bbc3;
+}
+
+#login p {
+    color: #c0bbc3;
+    font-size: 14px;
+}
+
+/* register.php && login.php buttons END */
+
+/*upload_test.php START*/
+.main_upload {
+    margin: auto;
+    /*margin-top:-5px;*/
+    padding-top: 200px;
+    width: 60%;
+    height: 100%;
+    background-color: #3d3d3d;      /*edellinen sisällön taustaväri*/
+}
+
+#choosefile_button {
+    margin-left: 16%;
+}
+
+.note {
+    font-size: 13px;
+}
+
+#uploadimage_button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #a6a0ab;
+    font-family: "Arial";
+    font-size: 14px;
+    text-decoration: none;
+    color: #c0bbc3;
+    background-color: #0f0d11;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #3a29d8;
+    transition: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+#uploadimage_button:hover {
+    color: #fff;
+    box-shadow: inset 0px 80px 0px 0px #9e75ef;
+}
+/*upload_test.php END*/
+
+/*gallery_test.php START*/
+
+#gal_profilepic img {
+    width: 100px;
+}
+
+#gal_section {
+    margin:inherit;
+    float:left;
+    width: 30%;
+    background-color: darkgray;
+    text-align: inherit;
+}
+
+/*gallery_test.php END*/
